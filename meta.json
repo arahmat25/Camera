@@ -1,0 +1,221 @@
+{
+    "data": {
+        "project": {
+            "apiComponents": {
+                "ApiContainer": {
+                    "id": "ApiContainer",
+                    "children": [
+                        {
+                            "type": "Alert",
+                            "translatedName": "Alert",
+                            "isApi": true,
+                            "properties": {
+                                "ConfirmButton": {
+                                    "Text": "Confirm"
+                                },
+                                "CancelButton": {
+                                    "Text": "Cancel"
+                                }
+                            },
+                            "children": [],
+                            "id": "53e47d3a-1dbc-4add-9d68-40ccec8aa738",
+                            "thunkableVersion": 420,
+                            "name": "Alert1"
+                        }
+                    ]
+                }
+            },
+            "assets": {
+                "64ffb0548dd71e9ee360e6bb": {
+                    "externalStorageType": "GCS",
+                    "_id": "64ffb0548dd71e9ee360e6bb",
+                    "size": "24123",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "305soft-high-resolution-color-logo.png",
+                    "backendURI": "/project/64ffb0548dd71e898860e6b9/getasset/64ffb0548dd71e9ee360e6bb",
+                    "name": "305soft-high-resolution-color-logo.png",
+                    "externalName": "users/64f9cfa89e1206008202d161/projects/64ffb0548dd71e898860e6b9/assets/64ffb0548dd71e9ee360e6bb",
+                    "createdAt": "2023-09-11T23:45:30.586Z",
+                    "updatedAt": "2023-09-11T23:45:30.586Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9cfa89e1206008202d161/projects/64ffb0548dd71e898860e6b9/assets/64ffb0548dd71e9ee360e6bb?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20230918%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230918T170944Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=947eb513850060c3d568e9f1f1fe6d8f5ea6a850027b6a1460674ad45e2f5da627f589187640ac58be376486b24799569e866de16fc107a0ed5fcf8b934e6f0938e9bb737b3da2fea680c18027fd67da7f1cb2ef2f460ee6535af3aa87d7e9ae045fd9cf4f3bc0a15469cafbfbbc817118b6b7ae223e94df9100d8e957afe68df57b4a02101c2870d67f3fcdbe9d7ce0c83536f352e023804ba6569a0bc92d48d32ea28e00e4370d42a2cc29cef657c1d22d62c7c0e8cbfb5b5142edb7fe4d0c178d190f61b03f005e1fb0bfc417e361dc19933d66fa492bea884f884d20175f82fd58150075286a59abf4b14227eddc0dc873211b66247769634c53860dbbd8",
+                    "signedUrlExpirationTime": 1695229784618
+                }
+            },
+            "backendUpgradeVersion": 21,
+            "blockly": {
+                "b9d05602-a85f-4b6e-9262-de81fc213726": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [
+                            "android.permission.CAMERA",
+                            "android.permission.RECORD_AUDIO"
+                        ],
+                        "ios": [
+                            {
+                                "name": "NSCameraUsageDescription",
+                                "label": "Camera",
+                                "hint": "Describe why your app uses the camera."
+                            },
+                            {
+                                "name": "NSMicrophoneUsageDescription",
+                                "label": "Microphone",
+                                "hint": "Describe why your app uses the microphone."
+                            }
+                        ]
+                    }
+                },
+                "ca067c81-28ba-47f9-bcb1-b80635175abe": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [
+                            "android.permission.CAMERA"
+                        ],
+                        "ios": [
+                            {
+                                "name": "NSCameraUsageDescription",
+                                "label": "Camera",
+                                "hint": "Describe why your app uses the camera."
+                            },
+                            {
+                                "name": "NSPhotoLibraryUsageDescription",
+                                "label": "Photos",
+                                "hint": "Describe why your app uses photos."
+                            }
+                        ]
+                    }
+                }
+            },
+            "categories": [
+                "Education"
+            ],
+            "components": {
+                "children": [
+                    "Photo_Screen.ca067c81-28ba-47f9-bcb1-b80635175abe",
+                    "Video_Screen.b9d05602-a85f-4b6e-9262-de81fc213726"
+                ]
+            },
+            "figmaComponents": {},
+            "description": null,
+            "icon": null,
+            "projectName": "Rahmat_Camera",
+            "settings": {
+                "teamId": null,
+                "appName": null,
+                "icon": null,
+                "autoIncrementVersion": true,
+                "ignoreNotchArea": false,
+                "notchAreaColor": null,
+                "androidVersionName": "1",
+                "androidVersionCode": 1,
+                "iosVersionNumber": "1",
+                "iosBuildNumber": "1",
+                "firebaseAPIKey": "",
+                "firebaseDatabaseURL": "",
+                "stripePublishableKeyTest": "",
+                "stripePublishableKeyLive": "",
+                "stripeAccountId": null,
+                "stripeTestMode": true,
+                "isPublic": true,
+                "description": null,
+                "mobileTutorial": null,
+                "pushNotificationAndroidAppId": null,
+                "pushNotificationIOSAppId": null,
+                "pushNotificationGeolocationEnabled": null,
+                "yandexAPIKey": "",
+                "imageRecognizerServerURL": "",
+                "imageRecognizerSubscriptionKey": "",
+                "cloudName": "",
+                "cloudinaryAPIKey": "",
+                "cloudinaryAPISecret": "",
+                "permissions": {
+                    "ios": {
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": "",
+                            "NSPhotoLibraryUsageDescription": ""
+                        }
+                    }
+                },
+                "googleMapAPIKeyAndroid": null,
+                "googleMapAPIKeyIOS": null,
+                "googleOAuthiOSClientID": null,
+                "googleOAuthiOSURLScheme": null,
+                "googleOAuthWebClientID": null,
+                "appleOAuthWebClientID": null,
+                "appleOAuthWebRedirectURI": null,
+                "admobAppIdIOS": null,
+                "admobAppIdAndroid": null,
+                "admobUserTrackingUsageDescription": null,
+                "__typename": "ProjectSettings"
+            },
+            "projectSettings": {
+                "teamId": null,
+                "appName": null,
+                "icon": null,
+                "autoIncrementVersion": true,
+                "ignoreNotchArea": false,
+                "notchAreaColor": null,
+                "androidVersionName": "1",
+                "androidVersionCode": 1,
+                "iosVersionNumber": "1",
+                "iosBuildNumber": "1",
+                "firebaseAPIKey": "",
+                "firebaseDatabaseURL": "",
+                "stripePublishableKeyTest": "",
+                "stripePublishableKeyLive": "",
+                "stripeAccountId": null,
+                "stripeTestMode": true,
+                "isPublic": true,
+                "description": null,
+                "mobileTutorial": null,
+                "pushNotificationAndroidAppId": null,
+                "pushNotificationIOSAppId": null,
+                "pushNotificationGeolocationEnabled": null,
+                "yandexAPIKey": "",
+                "imageRecognizerServerURL": "",
+                "imageRecognizerSubscriptionKey": "",
+                "cloudName": "",
+                "cloudinaryAPIKey": "",
+                "cloudinaryAPISecret": "",
+                "permissions": {
+                    "ios": {
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": "",
+                            "NSPhotoLibraryUsageDescription": ""
+                        }
+                    }
+                },
+                "googleMapAPIKeyAndroid": null,
+                "googleMapAPIKeyIOS": null,
+                "googleOAuthiOSClientID": null,
+                "googleOAuthiOSURLScheme": null,
+                "googleOAuthWebClientID": null,
+                "appleOAuthWebClientID": null,
+                "appleOAuthWebRedirectURI": null,
+                "admobAppIdIOS": null,
+                "admobAppIdAndroid": null,
+                "admobUserTrackingUsageDescription": null,
+                "__typename": "ProjectSettings"
+            },
+            "hasAdmob": false,
+            "hasBluetoothLowEnergy": null,
+            "hasPushNotification": false,
+            "hasAssistant": null,
+            "dataSourceLinks": [],
+            "localDataSources": [],
+            "customProperties": [],
+            "modules": [],
+            "usesDragDropUi": true,
+            "totalCopy": "0",
+            "totalStar": "0",
+            "starAction": "star",
+            "variables": {},
+            "defaultDesignerDevice": "PHONE",
+            "defaultDesignerOrientation": "PORTRAIT",
+            "schemaVersion": 2,
+            "organization": null,
+            "__typename": "Project"
+        }
+    }
+}
